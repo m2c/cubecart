@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * CubeCart v6
+ * ========================================
+ * CubeCart is a registered trade mark of CubeCart Limited
+ * Copyright CubeCart Limited 2014. All rights reserved.
+ * UK Private Limited Company No. 5323904
+ * ========================================
+ * Web:   http://www.cubecart.com
+ * Email:  sales@cubecart.com
+ * License:  GPL-3.0 http://opensource.org/licenses/GPL-3.0
+-->
+<definitions version="1.0">
+ <group name="kiplepay">
+  <string name="sk_test"><![CDATA[Test Secret Key]]></string>
+  <string name="pk_test"><![CDATA[Test Publishable Key]]></string>
+  <string name="sk_live"><![CDATA[Merchat Id]]></string>
+  <string name="pk_live"><![CDATA[Merchat Secret Key]]></string>
+  <string name="modeResponsive"><![CDATA[Use responsive layout? (Foundation Framework)]]></string>
+  <string name="capture"><![CDATA[Capture the charge?]]></string>
+ </group>
+</definitions>

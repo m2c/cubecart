@@ -109,6 +109,7 @@ class Gateway
             'ord_email' => $this->_ci($this->_basket['billing_address']['email']),
             'merchant_hashvalue' => $hashvalue,
             'ord_returnURL' => $GLOBALS['storeURL'].'/index.php?_g=rm&type=gateway&cmd=process&module=Kiplepay&cart_order_id='.$this->_basket['cart_order_id'],
+            'version' => '2.0',
         );
         return $hidden;
     }
